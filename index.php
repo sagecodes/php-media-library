@@ -1,30 +1,5 @@
-<html>
-<head>
-	<title>Personal Media Library</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,700" type="text/css">
-	<link rel="shortcut icon" href="favicon.ico">
-</head>
-<body>
+<?php include("inc/header.php"); ?>
 
-	<div class="header">
-
-		<div class="wrapper">
-
-			<h1 class="branding-title"><a href="./">Personal Media Library</a></h1>
-
-			<ul class="nav">
-                <li class="books"><a href="#">Books</a></li>
-                <li class="movies"><a href="#">Movies</a></li>
-                <li class="music"><a href="#">Music</a></li>
-                <li class="suggest"><a href="#">Suggest</a></li>
-            </ul>
-
-		</div>
-
-	</div>
-
-	<div id="content">
 		<div class="section catalog latest">
 
 			<div class="wrapper">
@@ -52,28 +27,28 @@
                     <img src="img/media/garth_brooks.jpg" alt="No Fences">
                     <p>View Details</p>
                 </a>
-            </li>								
+            </li>
 		</ul>
 
 			</div>
 
 		</div>
 
-	</div>
+	</div> <!-- End content -->
 
 	<div class="footer">
 
 		<div class="wrapper">
 
-			<ul>		
+			<ul>
 				<li><a href="http://twitter.com/treehouse">Twitter</a></li>
 				<li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
 			</ul>
 
-			<p>&copy;2015 Personal Media Library</p>
+			<p>&copy; <?php echo date("Y"); ?> Personal Media Library</p>
 
 		</div>
-	
+
 	</div>
 
 </body>
