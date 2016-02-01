@@ -1,3 +1,7 @@
+<?php
+$pageTitle = "Full Catalog"
+ ?>
+
 <?php include("inc/header.php"); ?>
 
 <div class="section page">

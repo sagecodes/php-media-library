@@ -1,3 +1,7 @@
+<?php
+$pageTitle = "Personal Media Library"
+ ?>
+
 <?php include("inc/header.php"); ?>
 
 		<div class="section catalog latest">
